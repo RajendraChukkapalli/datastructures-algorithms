@@ -1,4 +1,4 @@
-package com.examples.bst;
+package com.examples.datastructures.binarysearch;
 
 import java.util.Stack;
 

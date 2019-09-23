@@ -1,5 +1,249 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="83c8795c-d1d1-4bfd-95fd-15abfa0f7770" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/datastructures-algorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/datastructures-algorithms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/algo-expert/com/examples/algoexpert/Find3LargestNumbersFromArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/algoexpert/Find3LargestNumbersFromArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/algo-expert/com/examples/algoexpert/SmallestDifferenceBetween2ArrayElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/algoexpert/SmallestDifferenceBetween2ArrayElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/algo-expert/com/examples/algoexpert/TwoNumberSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/algoexpert/TwoNumberSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data-structures-programs/binarysearch/BSTInOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/datastructures/binarysearch/BSTInOrderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data-structures-programs/binarysearch/BinarySearchTreeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/datastructures/binarysearch/BinarySearchTreeExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data-structures-programs/binarysearch/BinaryTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/datastructures/binarysearch/BinaryTreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data-structures-programs/binarysearch/BuildBalancedBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/datastructures/binarysearch/BuildBalancedBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data-structures-programs/binarysearch/CountAllLeafNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/datastructures/binarysearch/CountAllLeafNodes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data-structures-programs/binarysearch/IsBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/datastructures/binarysearch/IsBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data-structures-programs/binarysearch/IterativePreOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/datastructures/binarysearch/IterativePreOrderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data-structures-programs/binarysearch/LCA.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/datastructures/binarysearch/LCA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data-structures-programs/binarysearch/LevelOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/datastructures/binarysearch/LevelOrderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data-structures-programs/binarysearch/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/datastructures/binarysearch/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data-structures-programs/binarysearch/SecondLargestElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/datastructures/binarysearch/SecondLargestElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data-structures-programs/binarysearch/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/datastructures/binarysearch/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data-structures-programs/com/examples/sort/BubbleSortExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data-structures-programs/com/examples/sort/InsertionSortExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data-structures-programs/com/examples/sort/MergeSortProblem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data-structures-programs/com/examples/sort/SelectionSortExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data-structures-programs/dynamic/CoinChangeProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/dynamicprogramming/CoinChangeProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data-structures-programs/dynamic/KanpsackProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/dynamicprogramming/KanpsackProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data-structures-programs/dynamic/LCS.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/dynamicprogramming/LCS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data-structures-programs/dynamic/StepsProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/dynamicprogramming/StepsProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data-structures-programs/graph/BFSExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/datastructures/graph/BFSExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data-structures-programs/graph/GFG.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/datastructures/graph/GFG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data-structures-programs/graph/GraphExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/datastructures/graph/GraphExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data-structures-programs/graph/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/datastructures/graph/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data-structures-programs/linkedlist/DeleteNthNodeInSinglePass.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/datastructures/linkedlist/DeleteNthNodeInSinglePass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data-structures-programs/linkedlist/FindDuplicateElementsOfLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/datastructures/linkedlist/FindDuplicateElementsOfLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data-structures-programs/linkedlist/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/datastructures/linkedlist/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data-structures-programs/linkedlist/LinkedListExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/datastructures/linkedlist/LinkedListExamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data-structures-programs/linkedlist/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/datastructures/linkedlist/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data-structures-programs/linkedlist/NodesUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/datastructures/linkedlist/NodesUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data-structures-programs/linkedlist/ReverseALinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/datastructures/linkedlist/ReverseALinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data-structures-programs/linkedlist/ReverseLinkedListByKPositions.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/datastructures/linkedlist/ReverseLinkedListByKPositions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data-structures-programs/recursion/FactorialExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/datastructures/recursion/FactorialExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data-structures-programs/sort/BubbleSortExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/algorithms/sorting/BubbleSortExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data-structures-programs/sort/InsertionSortExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/algorithms/sorting/InsertionSortExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data-structures-programs/sort/SelectionSortExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/algorithms/sorting/SelectionSortExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data-structures-programs/stacksandqueues/ArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/datastructures/stacksandqueues/ArrayStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data-structures-programs/stacksandqueues/BalancedBracketsUsingStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/datastructures/stacksandqueues/BalancedBracketsUsingStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data-structures-programs/stacksandqueues/FactorialUsingStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/datastructures/stacksandqueues/FactorialUsingStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data-structures-programs/stacksandqueues/PalindromeUsingStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/datastructures/stacksandqueues/PalindromeUsingStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data-structures-programs/stacksandqueues/QueueExampleWithLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/datastructures/stacksandqueues/QueueExampleWithLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/data-structures-programs/stacksandqueues/QueueExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/datastructures/stacksandqueues/QueueExamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/examples.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/general-programs/DecodingProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/generalprograms/DecodingProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/general-programs/ExcelCellsInRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/generalprograms/ExcelCellsInRange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/general-programs/FindMissingNumersInIntegerArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/generalprograms/FindMissingNumersInIntegerArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/general-programs/FindMissingNumersInIntegerArray2.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/generalprograms/FindMissingNumersInIntegerArray2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/general-programs/FindSecondMaxNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/generalprograms/FindSecondMaxNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/general-programs/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/generalprograms/LRUCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/general-programs/MostCharactersInAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/generalprograms/MostCharactersInAString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/general-programs/MultiplyArrayProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/generalprograms/MultiplyArrayProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/general-programs/PalindromicSubstringsInAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/generalprograms/PalindromicSubstringsInAString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/general-programs/RemoveDuplicatesInAnUnsortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/generalprograms/RemoveDuplicatesInAnUnsortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/general-programs/RemoveDupolicatesFromSortedArrayExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/generalprograms/RemoveDupolicatesFromSortedArrayExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/general-programs/ReverseStringInPlace.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/generalprograms/ReverseStringInPlace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/general-programs/RotateArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/generalprograms/RotateArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/general-programs/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/generalprograms/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/hacker-rank/ArrayManipulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/hackerrank/ArrayManipulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/interview-tests/com/examples/interview/tests/GuideWireTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/interview/tests/GuideWireTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/interview-tests/com/examples/interview/tests/TwilioHackerRankTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/interview/tests/TwilioHackerRankTest.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1868674589">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="iml" value="5" />
+          <entry key="java" value="55" />
+          <entry key="md" value="1" />
+          <entry key="properties" value="1" />
+          <entry key="xml" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IDEA_MODULE" value="5" />
+          <entry key="JAVA" value="55" />
+          <entry key="Markdown" value="1" />
+          <entry key="Properties" value="1" />
+          <entry key="XML" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="9" />
+          <entry key="xml" value="23" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="9" />
+          <entry key="XML" value="23" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/examples/hackerrank/ArrayManipulation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/examples/generalprograms/DecodingProblem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="35" selection-start-column="8" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/examples/datastructures/stacksandqueues/ArrayStack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/examples/datastructures/stacksandqueues/BalancedBracketsUsingStack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/examples/datastructures/stacksandqueues/FactorialUsingStack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/examples/interview/tests/GuideWireTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/com/examples/interview/tests/TwilioHackerRankTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/examples/datastructures/stacksandqueues/PalindromeUsingStack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/examples/datastructures/stacksandqueues/QueueExamples.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/examples/datastructures/stacksandqueues/QueueExampleWithLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>11</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$APPLICATION_CONFIG_DIR$/idea.properties" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/examples/data-structures-programs/binarysearch/BSTInOrderTraversal.java" />
+        <option value="$PROJECT_DIR$/examples/data-structures-programs/binarysearch/BinaryTreeNode.java" />
+        <option value="$PROJECT_DIR$/examples/data-structures-programs/graph/BFSExample.java" />
+        <option value="$PROJECT_DIR$/examples/data-structures-programs/stacksandqueues/ArrayStack.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
@@ -18,20 +262,605 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="datastructures-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datastructures-algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datastructures-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datastructures-algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datastructures-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datastructures-algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datastructures-algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569201052727" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569204076966" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.37011495" />
     <property name="settings.editor.selected.configurable" value="spring.boot" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.examples.generalprograms" />
+      <recent name="com.examples.datastructures.recursion" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/com/examples/datastructures/graph" />
+      <recent name="$PROJECT_DIR$/com/examples/datastructures/binarysearch" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.TwoNumberSum">
+    <configuration name="Find3LargestNumbersFromArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.examples.algoexpert.Find3LargestNumbersFromArray" />
+      <module name="datastructures-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.examples.algoexpert.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoNumberSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.examples.algoexpert.TwoNumberSum" />
+      <module name="datastructures-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.examples.algoexpert.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All Features in: algoexpert" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="3" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/com/examples/algoexpert" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="datastructures-algorithms" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter" />
+      <option name="SUGGESTED_NAME" value="All Features in: algoexpert" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All Features in: datastructures-algorithms" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="3" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="datastructures-algorithms" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter" />
+      <option name="SUGGESTED_NAME" value="All Features in: datastructures-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All Features in: examples (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="3" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/examples" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="datastructures-algorithms" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter" />
+      <option name="SUGGESTED_NAME" value="All Features in: examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Cucumber java.All Features in: datastructures-algorithms" />
+      <item itemvalue="Cucumber java.All Features in: examples (1)" />
+      <item itemvalue="Application.TwoNumberSum" />
+      <item itemvalue="Cucumber java.All Features in: algoexpert" />
+      <item itemvalue="Application.Find3LargestNumbersFromArray" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TwoNumberSum" />
+        <item itemvalue="Application.Find3LargestNumbersFromArray" />
+        <item itemvalue="Cucumber java.All Features in: datastructures-algorithms" />
+        <item itemvalue="Cucumber java.All Features in: algoexpert" />
+        <item itemvalue="Cucumber java.All Features in: examples (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="83c8795c-d1d1-4bfd-95fd-15abfa0f7770" name="Default Changelist" comment="" />
+      <created>1569200946632</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569200946632</updated>
+      <workItem from="1569200949287" duration="718000" />
+      <workItem from="1569201816054" duration="309000" />
+      <workItem from="1569202165764" duration="1841000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="All_Features_in__datastructures-algorithms - 2019.09.22 at 18h 14m 04s.xml">
+      <configuration name="All Features in: datastructures-algorithms" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_Features_in__examples - 2019.09.22 at 18h 15m 14s.xml">
+      <configuration name="All Features in: examples" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_Features_in__datastructures-algorithms - 2019.09.22 at 18h 16m 18s.xml">
+      <configuration name="All Features in: datastructures-algorithms" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_Features_in__datastructures-algorithms - 2019.09.22 at 18h 18m 09s.xml">
+      <configuration name="All Features in: datastructures-algorithms" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_Features_in__datastructures-algorithms - 2019.09.22 at 18h 20m 35s.xml">
+      <configuration name="All Features in: datastructures-algorithms" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_Features_in__datastructures-algorithms - 2019.09.22 at 18h 24m 05s.xml">
+      <configuration name="All Features in: datastructures-algorithms" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_Features_in__examples_(1) - 2019.09.22 at 18h 25m 16s.xml">
+      <configuration name="All Features in: examples (1)" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_Features_in__algo-expert - 2019.09.22 at 18h 25m 24s.xml">
+      <configuration name="All Features in: algo-expert" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_Features_in__examples_(1) - 2019.09.22 at 18h 26m 40s.xml">
+      <configuration name="All Features in: examples (1)" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2868000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.32961586" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.32961586" />
+      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.32961586" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/examples/examples.iml" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/idea.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/output/production/datastructures-algorithms/.idea/datastructures-algorithms.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/output/production/datastructures-algorithms/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/output/production/datastructures-algorithms/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/output/production/datastructures-algorithms/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/output/production/datastructures-algorithms/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/examples/algoexpert/SmallestDifferenceBetween2ArrayElements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/examples/algoexpert/TwoNumberSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/datastructures-algorithms.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="85" selection-start-line="11" selection-start-column="85" selection-end-line="11" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/examples/datastructures/binarysearch/BSTInOrderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#1046#1062#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/examples/dynamicprogramming/StepsProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/examples/dynamicprogramming/LCS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/examples/dynamicprogramming/KanpsackProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/examples/dynamicprogramming/CoinChangeProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/examples/algoexpert/Find3LargestNumbersFromArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/examples/datastructures/binarysearch/BinaryTreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/examples/datastructures/binarysearch/BinarySearchTreeExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="48" lean-forward="true" selection-start-column="8" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/examples/generalprograms/RotateArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="642">
+          <caret line="593" column="115" selection-start-line="593" selection-start-column="115" selection-end-line="593" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/examples/datastructures/graph/BFSExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/examples/datastructures/graph/GFG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="72" column="29" lean-forward="true" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/examples/datastructures/linkedlist/DeleteNthNodeInSinglePass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/examples/datastructures/linkedlist/FindDuplicateElementsOfLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/examples/datastructures/linkedlist/LinkedListExamples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/examples/datastructures/linkedlist/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/examples/datastructures/linkedlist/NodesUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/examples/datastructures/linkedlist/ReverseALinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/examples/datastructures/linkedlist/ReverseLinkedListByKPositions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/examples/datastructures/linkedlist/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/examples/datastructures/recursion/FactorialExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/examples/algorithms/sorting/InsertionSortExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/examples/algorithms/sorting/SelectionSortExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/examples/algorithms/sorting/BubbleSortExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/examples/generalprograms/DecodingProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/examples/datastructures/stacksandqueues/ArrayStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/examples/datastructures/stacksandqueues/BalancedBracketsUsingStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/examples/datastructures/stacksandqueues/FactorialUsingStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/examples/datastructures/stacksandqueues/PalindromeUsingStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/examples/datastructures/stacksandqueues/QueueExamples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/examples/datastructures/stacksandqueues/QueueExampleWithLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/examples/hackerrank/ArrayManipulation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/examples/interview/tests/GuideWireTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/examples/interview/tests/TwilioHackerRankTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.37011495" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.37011495" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -46,6 +875,18 @@
       <state key="JdkListConfigurable.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.37011495" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>datastructures-algorithms</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -72,7 +913,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.37011495" />
               </list>
             </option>
           </splitter-proportions>
