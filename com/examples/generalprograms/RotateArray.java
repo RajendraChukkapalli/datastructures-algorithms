@@ -3,7 +3,7 @@ package com.examples.generalprograms;
 /**
  *  Rotate array by 5 positions
  */
-public class ArrayExample1 {
+public class RotateArray {
 
 	public static void main(String[] args) {
 		
