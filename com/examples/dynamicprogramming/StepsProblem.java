@@ -4,23 +4,16 @@ package com.examples.dynamicprogramming;
  * Reference:  https://www.youtube.com/watch?v=5o-kdjv7FD0&t=929s
  * 
  * 1. Given N number of steps, how many ways you can climb the steps
- * 2. Recursive with "memoization"
- * 3. 
  */
 public class StepsProblem {
 
 	public static void main(String[] args) {
 		
-		System.out.println(numberOfWays(7));
+		System.out.println(numberOfWays(6));
+		System.out.println(numberOfWays2(6));
+		System.out.println(climbStairs(6));
 
-		System.out.println(numberOfWays2(7));
-		
-		int[] steps = {1,2};
-		int count = numberOfWaysWithAGivenSet(7, 0,steps);
-		System.out.println(count);
-		
-		System.out.println(numberOfWaysWithAGivenSetRecursive(7));
-		
+
 	}
 	
 	/**
@@ -37,19 +30,18 @@ public class StepsProblem {
 	 * @return 
 	 */
 	private static int numberOfWays(int n) {
-		
-		// if we include the following, 
-		// {[1,2,3,4][2,3,4][1,3,4]}
-		
-		// if (n == 0) return 0; 
+
 		// base case
 		if (n == 0 || n == 1) {
-			return 1; 
+			return 1;
+		// base case
+		} else if (n ==2) {
+			return 2;
 		} else {
-			return numberOfWays(n-1) + numberOfWays(n-2);
+			return numberOfWays(n-1) + numberOfWays(n-2) + + numberOfWays(n-3);
 		}
 	}
-	
+
 	/**
 	 * Memoize - store the sub-problem results and return them.
 	 * 
@@ -57,60 +49,69 @@ public class StepsProblem {
 	 * @return
 	 */
 	private static int numberOfWays2(int n) {
-		return  numberOfWaysHelper(n);
+		int memo[] = new int[n + 1];
+		return  numberOfWaysHelper(n, memo);
 	}
 	
-	private static int numberOfWaysHelper(int n) {
+	private static int numberOfWaysHelper(int n, int[] memo) {
+
 		if (n == 0 || n == 1) return 1;
-		int[] a = new int[n+1];
-		
-		a[0] = 1;
-		a[1] = 1;
-		
-		// fill the array with all the combinations
-		for (int i = 2; i <= n; i++) {
-			a[i] = a[i-1] + a[i-2];
+
+		memo[0] = 1;
+		memo[1] = 1;
+		memo[2] = 2;
+
+		if (memo[n] > 0) {
+			return memo[n];
 		}
-		return a[n];
+
+		// cache the memo
+		memo[n] = numberOfWaysHelper(n - 1, memo) + numberOfWaysHelper(n - 2, memo) + numberOfWaysHelper(n - 3, memo);
+
+		return memo[n];
 	}
 	
-	
-	/**
-	 * TODO
-	 * 
-	 * Given a set of {1,2}, calculate the number of ways to climb.
-	 * 
-	 * @param n
-	 * @param index
-	 * @param steps
-	 * @return
-	 */
-	private static int numberOfWaysWithAGivenSet(int n, int index, int[] steps) {
-		if (n == 0 || n == 1 ) return 1;
-		int count = 0;
-		for (int m = 0; m < steps.length; m++ ) {
-			count += numberOfWaysWithAGivenSet(n-steps[m], m, steps);
-		}
-		return count;
+
+	public static int climbStairs(int n) {
+    /*
+      In programming we all know we index off of 0. This is why
+      we create an array of size n + 1. It is so we can just return
+      dp[n] at the end instead of fumbling with dp[n - 1].
+      If n = 4 we will get an array like this if we just did "new int[n];":
+      [0, 0, 0, 0]
+       0  1  2  3
+      If we instead do "new int[n + 1" we have:
+      [0, 0, 0, 0, 0]
+       0  1  2  3  4
+       And now we can be literal in how we access the nth subproblem
+    */
+    int[] dp = new int[n + 1];
+
+    /*
+      n = 0, the answer is 1. We can only take no steps.
+    */
+    dp[0] = 1;
+
+    /*
+      n = 1, the answer is 1. We can only take 1 step.
+    */
+    dp[1] = 1;
+
+    dp[2] = 2;
+
+    /*
+      The answer to the ith subproblem is the sum between the answer
+      to the subproblems of climbing i - 1 stairs and i - 2 stairs
+    */
+	for (int i = 3; i <= n; i++) {
+		dp[i] = dp[i - 1] + dp[i - 2]+ dp[i-3];
 	}
-	
-	/**
-	 * Recursion solution with a set
-	 * 
-	 * @param n
-	 */
-	private static int  numberOfWaysWithAGivenSetRecursive(int n) { 
-		
-		if (n == 0 ) return 1;
-		
-		int total = 0;
-		
-		if (n >=0 ) {
-		total += numberOfWaysWithAGivenSetRecursive(n-1) + 
-				 numberOfWaysWithAGivenSetRecursive(n-2) +
-				 numberOfWaysWithAGivenSetRecursive (n-5);
-		}
-		
-		return total;
-		}
+
+    /*
+      This is what we want and built to the while way. The answer for
+      the total unique ways to climb n steps when we can either take a
+      1 step or 2 step
+    */
+    return dp[n];
+	}
 }
