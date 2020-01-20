@@ -14,7 +14,7 @@ public class ReverseStringInPlace {
 	public static void reverse(char[] arrayOfChars) {
 
 	    int leftIndex = 0;
-	    int rightIndex = arrayOfChars.length - 1;
+	    int rightIndex = arrayOfChars.length - 1; 
 
 	    while (leftIndex < rightIndex) {
 

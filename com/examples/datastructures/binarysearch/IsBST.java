@@ -6,10 +6,12 @@ package com.examples.datastructures.binarysearch;
  * BST property:
  * 
  * 1. all the left children are less than its parent
- * 2. all the right children are grester than its parent
+ * 2. all the right children are greater than its parent
  * 3. all the subtrees of the root (left and right) should be BST as well
  * 
- * One way to do this is recursion 
+ * 1  One way to do this is recursion 
+ * 2. Range bound solution
+ * 3. inOrderTraversal - make sure the elements are in ascending order
  *  
  */
 
@@ -36,12 +38,14 @@ package com.examples.datastructures.binarysearch;
 
 
         root.right = new Node (22);
-        // '20' - it failed for range bound solution as it is also at root node.
         root.right.left = new Node (21);  
         root.right.right = new Node (25);
 
-       // System.out.println(t.isBST(root));
-       // System.out.println(t.isBST2(root, Integer.MIN_VALUE, Integer.MAX_VALUE));
+        // recursive solution
+        System.out.println(t.isBST(root));
+        // range bound solution
+        System.out.println(t.isBSTRangeBound(root, Integer.MIN_VALUE, Integer.MAX_VALUE));
+        // in order traversal
         isBST3(root);
     }
 
@@ -90,13 +94,13 @@ package com.examples.datastructures.binarysearch;
 	 * @param max
 	 * @return
 	 */
-	private boolean isBST2(Node node, int min, int max) {
+	private boolean isBSTRangeBound(Node node, int min, int max) {
 		
 		if (node == null) return true;
 		if ((node.data >= min) 
 				&& (node.data <= max)
-				&& isBST2 (node.left, min, node.data) 
-				&& isBST2 (node.right, node.data, max)) {
+				&& isBSTRangeBound (node.left, min, node.data) 
+				&& isBSTRangeBound (node.right, node.data, max)) {
 			return true;
 		} else {
 			return false;
@@ -119,6 +123,7 @@ package com.examples.datastructures.binarysearch;
 	 * Capture the in order traversal elements into a list and find out
 	 * whether they are in ascending order or not.
 	 */
+	@SuppressWarnings("unused")
 	private static void isAscending() {
 		int i[] = new int[ ] {10, 15, 18, 20, 21, 22, 25};
 	    boolean isAsecnding = true;

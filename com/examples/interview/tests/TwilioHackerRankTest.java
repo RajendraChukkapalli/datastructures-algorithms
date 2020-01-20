@@ -61,8 +61,8 @@ public class TwilioHackerRankTest {
 		
 		StringBuilder builder = new StringBuilder();
 		while (num > 0) {
-			int hex = num % 8;
-			builder.append(c[hex]);
+			int oct = num % 8;
+			builder.append(c[oct]);
 			num = num / 8;
 		}
 		return builder.reverse().toString();

@@ -7,8 +7,8 @@ import java.util.*;
  * 
  * Seating arrangements are below;
  * 
- * if excluded seats are 1A  1K       then  - 10 sets are availble 
- * if excluded seats are 1G 1A 2A 3A  then  - 8  sets are availble 
+ * if excluded seats are 1A  1K       then  - 10 sets are available 
+ * if excluded seats are 1G 1A 2A 3A  then  - 8  sets are available 
  * 
  *  1   -   A B C    D E F G    H J K
  *  2   -   A B C    D E F G    H J K

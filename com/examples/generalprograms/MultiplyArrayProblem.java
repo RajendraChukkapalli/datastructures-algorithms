@@ -24,7 +24,7 @@ public class MultiplyArrayProblem {
 	}
 
 	// Here the problem is multiplied by "1"
-	private static void multiply(int[][] intArray) {
+	private static void multiply(int[][] intArray) { 
 		int sum = 1;
 		int k = 0;
 		Integer[][] outArray = new Integer[4][4];;

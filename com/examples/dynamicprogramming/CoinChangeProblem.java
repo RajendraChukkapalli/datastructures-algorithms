@@ -8,7 +8,7 @@ public class CoinChangeProblem {
 	
 	public static void main(String[] args) {
 		// recursion
-		System.out.println(combo(12, 0));
+		System.out.println(combo(12, 0, 0));
 		// dynamic programming
 		System.out.println(dpsolution(12, coins));
 		
@@ -81,7 +81,7 @@ public class CoinChangeProblem {
 	 * @param coin1
 	 * @return
 	 */
-	private static int combo(int amount, int coin1) {
+	private static int combo(int amount, int coin1, int count) {
 		
 		// base case
 		if (amount == 0 ) return 1;
@@ -89,8 +89,8 @@ public class CoinChangeProblem {
 		if (amount <  0 ) return 0;
 		
 		int nCombos = 0;
-		for (int coin =coin1; coin < coins.length; coin ++) {
-			nCombos += combo(amount - coins[coin], coin);
+		for (int coin =coin1; coin < coins.length; coin++) {
+			nCombos += combo(amount - coins[coin], coin, count++);
 		}
 		return nCombos;
 	}

@@ -17,6 +17,8 @@ public class DeleteNthNodeInSinglePass {
 			System.out.print(curr1.data + " ");
 			curr1 = curr1.next;
 		}
+		
+		removeElements(linkedList, 4L);
 	}
 
 	private static void deleteNode(LinkedList linkedList, long l) {
@@ -25,13 +27,29 @@ public class DeleteNthNodeInSinglePass {
 		Node prev = null;
 		while (curr !=null) {
 			if (curr.data == l) {
-				Node temp = curr.next;
-				prev.setNext(temp);
-				break;
+				curr = curr.next;
 			} else {
 				prev = curr;
 				curr = curr.next;
 			}
 		}
 	}
+	
+	
+public static LinkedList removeElements(LinkedList linkedList, long l) {
+        
+	 if (linkedList == null) return null;
+     Node current = linkedList.getHead();
+     Node prev = null;
+     while (current != null) { 
+         if (current.data == l) {
+             current = current.next;
+         } else {
+        	 prev = current;
+        	 current = current.next;
+         }
+     }
+     linkedList.head = current;
+     return linkedList;
+    }
 }

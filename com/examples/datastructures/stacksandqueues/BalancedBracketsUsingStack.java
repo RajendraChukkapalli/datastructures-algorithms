@@ -12,12 +12,12 @@ public class BalancedBracketsUsingStack {
 
 	@SuppressWarnings("unused")
 	public static void main(String[] args) {
-		String str = "{(()()(){})}";
+		String str = "{(()()[(){})}";
 		System.out.println(isBalanced(str));
 	}
 	
 	public static boolean isBalanced(String expression) {
-		// Must be even
+		// Must be even 
 		if ((expression.length() & 1) == 1) return false;
 		else {
 		  char[] brackets = expression.toCharArray();
