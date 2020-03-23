@@ -1,5 +1,7 @@
 package com.examples.algoexpert;
 
+import java.util.Arrays;
+
 /**
  * Algo-expert:  https://www.algoexpert.io/questions/Two%20Number%20Sum
  * 
@@ -7,7 +9,7 @@ package com.examples.algoexpert;
 public class TwoNumberSum {
 
 	public static void main(String[] args) {
-		int[] output = twoNumberSum(new int[]{-21,301,12,4,65,56,210,356,9,-47}, 164);
+		int[] output = twoSum(new int[]{3,2,4}, 6);
 		for (int item: output) System.out.println(item + " ");
 	}
 	
@@ -23,4 +25,25 @@ public class TwoNumberSum {
 		}
 		return new int[]{};
 	}
+	
+	 public static int[] twoSum(int[] nums, int target) {
+	        
+	        Arrays.sort(nums);
+	        
+	        int i = 0;
+	        int j = nums.length - 1;
+	        int currentSum = 0;
+	        
+	        while (i  < j) {
+	            currentSum = nums[i] + nums[j];
+	            if (currentSum == target) {
+	                return new int[] {i,j};
+	            } else if (currentSum < target) {
+	                i++;
+	            } else if (currentSum > target) {
+	                j--;
+	            }
+	        }
+	        return new int[] {0,0};
+	    }
 }

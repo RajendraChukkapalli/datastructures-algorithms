@@ -2,7 +2,7 @@ package com.examples.crack_code_interview.arrays_strings;
 
 import java.util.Arrays;
 
-// ask the following: 
+//   ask the following: 
 //   a. like do we need to check upper case or lower case? 
 //   b. white space matters? 
 public class Check2StringsPermutation {

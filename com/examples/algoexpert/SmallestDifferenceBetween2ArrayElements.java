@@ -22,16 +22,16 @@ public class SmallestDifferenceBetween2ArrayElements {
   public static int[] smallestDifference(int[] arrayOne, int[] arrayTwo) {
 
 	  	// 1. sort both the arrays
-		// 2. compare and find the diff
+		// 2. compare and find the difference
+	  
 	    // O(n2) complexity and O(1) space
-
 		Arrays.sort(arrayOne);
 		Arrays.sort(arrayTwo);
 
 		int minDiff = Integer.MAX_VALUE;
 		int diff = 0;
-
 		int[] pair = new int[2];
+		
 		for (int i=0; i < arrayOne.length; i++) {
 			for (int j=0; j < arrayTwo.length; j++) {
 				if (arrayTwo[j] > arrayOne[i]) {
@@ -39,11 +39,11 @@ public class SmallestDifferenceBetween2ArrayElements {
 				} else if (arrayOne[i] > arrayTwo[j]) {
 						diff = arrayOne[i] - arrayTwo[j];
 				} else {
+					// which means the difference is "zero". 
 					pair[0] = arrayOne[i];
 					pair[1] = arrayTwo[j];
 					return pair;
 				}
-				// System.out.println("arrayOne[i]  = "  + arrayOne[i]  + "  " +  "arrayTwo[j]  - "  + arrayTwo[j] + "  diff - " +  (arrayTwo[j]  -  arrayOne[i]));
 				if (diff < minDiff) {
 					  minDiff = diff;
 					  pair[0] = arrayOne[i];

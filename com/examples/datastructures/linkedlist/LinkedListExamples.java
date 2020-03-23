@@ -25,17 +25,17 @@ public class LinkedListExamples {
 		System.out.println("linked list = " + linkedList);
 		
 		// find length of the list
-		// int length = example.getLength(linkedList);
-		// System.out.println("size of the linked list = " + length);
+		int length = example.getLength(linkedList);
+		System.out.println("size of the linked list = " + length);
 		
 		// delete an element from linked list
 		// deleting an element means "find" an element and "delete" 
 		example.deleteANode(linkedList, 30L);
 		
 		// check whether the given linked list is circular or not ?
-		//LinkedList circularList = makeItCircular ( linkedList);
-		//boolean isCircular = isCircular (linkedList);
-		//System.out.println(isCircular);
+		makeItCircular ( linkedList);
+		boolean isCircular = isCircular (linkedList);
+		System.out.println(isCircular);
 		
 	}
 
@@ -86,15 +86,14 @@ public class LinkedListExamples {
 		Node current = linkedList.getHead();
 		
 		while (current != null) {       	
-			if (current.data != null && 
-					current.data.equals(inputData))  {
+			if (current.data != null && current.data.equals(inputData))  {
 					 Node next = current.next;
 					 previous.setNext(next); 
 					 break;
-					} else {
-						previous = current; 
-						current = current.next; 
-					}
+				} else {
+					 previous = current; 
+					 current = current.next; 
+				}
 			}
 			System.out.println("linked list = " + linkedList);
 	}
@@ -106,13 +105,12 @@ public class LinkedListExamples {
 	 */
 	private int getLength(LinkedList linkedList) {
 		
-		LinkedList temp = linkedList;
+		Node current = linkedList.getHead();
 
 		int count  = 0;
-		while (temp.getHead() != null) {
+		while (current != null) {
 			count = count + 1;
-			System.out.println(temp.getHead().getData());
-			temp.head = temp.getHead().getNext();
+			current = current.next;
 		}
 		return count;
 	}

@@ -1,4 +1,4 @@
-package com.examples.cracking.coding.interview.arrays_strings;
+package com.examples.crack_code_interview.arrays_strings;
 
 public class URLIfy {
 

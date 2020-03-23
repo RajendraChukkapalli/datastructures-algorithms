@@ -9,7 +9,6 @@ import java.util.List;
 public class TimeOverlappingProblem {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		 final List<Meeting> meetings = Arrays.asList(new Meeting(1, 3), new Meeting(2, 4), new Meeting(2,6));
 		 mergeRanges(meetings);
 	}
@@ -42,10 +41,8 @@ public class TimeOverlappingProblem {
 	            mergedMeetings.add(currentMeeting);
 	        }
 	    }
-
 	    return mergedMeetings;
 	}
-
 }
 
  class Meeting {

@@ -1,9 +1,11 @@
 package com.examples.datastructures.binarysearch;
 
+import java.util.Queue;
+
 /**
  * Binary search tree is a variation of a Binary Tree.
  * - it has one root node. each node (including) root, can have 3 nodes 1. left 2. right
- * - the node which does not have any childs is called as "leaf" node
+ * - the node which does not have any child's is called as "leaf" node
  * - the nodes with the same parent are siblings 
  * 
  * Difference between Binary Tree and Binary Search Tree is 
@@ -46,6 +48,7 @@ public class BinarySearchTreeExample {
 		BinarySearchTree tree = new BinarySearchTree();
 		tree.root = tn;
 		tree.delete(11);
+		
 	}
 }
 
@@ -53,23 +56,6 @@ public class BinarySearchTreeExample {
 class BinarySearchTree {
 	
 	public  TreeNode root;
-	
-	public TreeNode find(Integer data) {
-		if (root != null ) {
-			System.out.println("root");
-			return root.find(data);
-		}
-		return null;
-	}
-	public void insert(Integer data) {
-		
-		if (root == null) {
-			this.root = new TreeNode(data);
-		} else {
-			root.insert(data);
-		}
-	}
-	
 	/**
 	 * BST can be traversed either with iterative or recursive approach. 
 	 * For traversal, recursive is the best approach and it looks clean.
@@ -174,7 +160,7 @@ class TreeNode {
 	 *     check if the right node is null 
 	 *            if the right node is null, add the right node
 	 *     if the right node is not null 
-	 *            it can be on the left side oor right side (call the recursive method) on the right node.
+	 *            it can be on the left side or right side (call the recursive method) on the right node.
 	 *            
 	 * @param data
 	 */

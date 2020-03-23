@@ -16,7 +16,7 @@ public class MultiplyArrayProblem {
 				System.out.print(intArray[i][j] + ",  ");
 			}
 		}
-		// find the diagnoal difference
+		// find the diagonal difference
 		calculateDiagonalDifference(intArray); 
 		
 		// multiply array 

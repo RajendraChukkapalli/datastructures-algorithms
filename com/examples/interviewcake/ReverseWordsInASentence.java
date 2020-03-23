@@ -10,7 +10,7 @@ public class ReverseWordsInASentence {
 
 	public static void main(String[] args) {
 		
-		String message = "cake pound steal";
+		String message = "hello   world!";
 		
 		// first reverse the characters
 		//     -- if you try to reverse words in place 
@@ -38,7 +38,9 @@ public class ReverseWordsInASentence {
 				currentWordsIndex = k+1;
 			}
 		}
-		System.out.println(c);
+		System.out.println(new String(c).trim());
+		
+		System.out.println(reverseWords(message));
 	}
 
 	private static void reverseCharacters(char[] c, int leftIndex, int rightIndex) {
@@ -50,4 +52,34 @@ public class ReverseWordsInASentence {
 			rightIndex--;
 		}
 	}
+	
+	
+	 public static String reverseWords(String s) {
+	        if (s.length() < 1) return "";
+	        String[] words = s.split(" ");
+	        int i = 0;
+	        int j = words.length - 1;
+	        while (i < j) {
+	            swap(words, i, j);
+	            i++; 
+	            j--;
+	        }
+	        StringBuilder sb = new StringBuilder();
+	        int index = 0;
+	        for (String str : words) {
+	            if (str.equals("")) {
+	                continue;
+	            } else {
+	                sb.append(str + " ");
+	            }
+	            index++;
+	        }
+	        return sb.toString().trim();
+	    }
+	    
+	    private static void swap(String[] words, int i, int j) {
+	        String temp = words[i];
+	        words[i] = words[j];
+	        words[j] = temp;
+	    }
 }

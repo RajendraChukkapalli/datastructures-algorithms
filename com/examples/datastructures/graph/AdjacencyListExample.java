@@ -5,7 +5,7 @@ import java.util.LinkedList;
 /**
  * Graph traversals
  * 1. Adjacency matrix  - Finding a node is O(1) time, space complexity O(n * n)
- * 2. Adjacency List - Create a Linsked List and each linkedList (vertex) will have a
+ * 2. Adjacency List - Create a Linked List and each linkedList (vertex) will have a
  *                     navigation paths stored in linked list again.
  */
 public class AdjacencyListExample {

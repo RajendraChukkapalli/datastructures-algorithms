@@ -1,5 +1,10 @@
 package com.examples.algorithms.sorting;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 /**
  * It is a 2-dimensional array. For every column, need to iterate the complete 
@@ -12,7 +17,7 @@ public class BubbleSortExample {
 
 	public static void main(String[] args) {
 		int intArray[] = { 230, 450, 123, -1, 8, 3, 2, 1, 7, 5, 4, 11, 89, 34, 23, 10};
-		sort(intArray);
+		sortArray(intArray);
 		for (int i = 0; i < intArray.length; i++) {
 	         System.out.print(intArray[i] + " ");
 	     }
@@ -32,6 +37,24 @@ public class BubbleSortExample {
 					intArray[j+1] = temp; 	
 				}
 			}
+		}	
+	}
+	
+	public static List<Integer> sortArray(int[] nums) {
+		// bubble sort
+		for (int i = 0; i < nums.length; i++) {
+			for (int j = 0; j < nums.length; j++) {
+				if (nums[i] < nums[j]) {
+					int temp = nums[i];
+					nums[i] = nums[j];
+					nums[j] = temp;
+				}
+			}
 		}
+		List<Integer> list = new ArrayList<Integer>();
+		for (int i : nums) {
+			list.add(i);
+		}
+		return list;
 	}
 }

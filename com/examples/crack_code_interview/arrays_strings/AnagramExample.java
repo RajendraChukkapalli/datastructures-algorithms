@@ -1,7 +1,9 @@
-package com.examples.cracking.coding.interview.arrays_strings;
+package com.examples.crack_code_interview.arrays_strings;
 
 /**
- * An anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once
+ * An anagram is a word or phrase formed by rearranging the letters of a 
+ * different word or phrase, typically using all the original 
+ * letters exactly once
  *
  */
 public class AnagramExample {
@@ -16,6 +18,16 @@ public class AnagramExample {
         return sort(s).equals(sort(t));
     }
 
+    /**
+     * a. Iterate the string and add all the char counts 
+     * b. Iterate the second string and deduct the char counts
+     * c. if any of the character goes negative, then they are not anagrams to each other
+     * d. else then they are anagram to each other.
+     * 
+     * @param s
+     * @param t
+     * @return
+     */
     public static boolean permutation2(String s, String t) {
         if (s.length() != t.length()) return false; // Permutations must be same length
 

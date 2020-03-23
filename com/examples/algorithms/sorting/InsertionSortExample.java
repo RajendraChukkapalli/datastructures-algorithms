@@ -19,7 +19,7 @@ public class InsertionSortExample {
 		int count = 0;
 		for (int i = 0; i < intArray.length ; i++) {
 			count = count + 1;
-			// Keep the elesmenet in temp variablle
+			// Keep the element in temporary variable
 			int temp  = intArray[i];
 			int j = i;
 			// j should be > 0 else ArrayIndexOutOfBoundsException will happen in the first iteration

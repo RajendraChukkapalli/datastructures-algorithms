@@ -14,7 +14,7 @@ public class AllPaths {
 		// ArrayList<String> paths = displayAllPaths(node);
 
 		List<String> newPaths = new ArrayList<>();
-		// dfs
+		// Depth first search
 		dfs(node, "", newPaths);
 		System.out.println(newPaths);
 	}

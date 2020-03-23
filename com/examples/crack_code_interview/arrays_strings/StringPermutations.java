@@ -52,5 +52,4 @@ public class StringPermutations
 
 } 
 
-//This code is contributed by Mihir Joshi 
 

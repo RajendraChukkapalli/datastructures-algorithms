@@ -6,7 +6,7 @@ package com.examples.leetcode;
  * https://www.youtube.com/watch?v=1YQmI7F9dJ0
  * 
  */
-public class LC14 {
+public class LC14_Longest_Common_Prefix {
 
 	public static void main(String[] args) {
 		String[] strArray = {"flower","flow","flight"};

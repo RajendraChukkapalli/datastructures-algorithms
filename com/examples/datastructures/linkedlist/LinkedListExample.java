@@ -1,4 +1,4 @@
-package com.examples.test;
+package com.examples.datastructures.linkedlist;
 
 
 public class LinkedListExample {

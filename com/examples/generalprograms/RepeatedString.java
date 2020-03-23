@@ -1,32 +1,25 @@
 package com.examples.generalprograms;
 
-public class Test {
+/**
+ * https://www.hackerrank.com/challenges/repeated-string/problem
+ *
+ */
+public class RepeatedString {
 
 	public static void main(String[] args) {
-		
-//		String inputStr  = "anvbcterdHHHdemadhfdahduiodl"; 
-//		// print all the characters 
-//		for (int i=0; i< inputStr.length(); i++) {
-//			String str = inputStr.substring(i, i+1);
-//			System.out.println(str);
-//		}
-//		char c = 'A';
-//		System.out.println ((int)c);
 		String s = "kmretasscityylpdhuwjirnqimlkcgxubxmsxpypgzxtenweirknjtasxtvxemtwxuarabssvqdnktqadhyktagjxoanknhgilnm";
 		Long n = 736778906400L;
-		temp(s, n);
+		repeatedString(s, n);
 	}
 
 	
 	// amazing answer - copied from Hacker Rank.
-	public static void temp(String s, Long n) {
-	    //String s = in.next();
-	    //long n = in.nextLong();
+	public static void repeatedString(String s, Long n) {
 	    long count =0;
-	    for(char c : s.toCharArray())
+	    for(char c : s.toCharArray()) {
 	        if(c == 'a')
 	        count++;
-
+	     }
 	     long factor = (n/s.length());
 	     long rem = (n%s.length());
 	     count =  factor*count  ;
@@ -35,6 +28,4 @@ public class Test {
 	                count++;        
 	    System.out.println(count);
 	}
-	
-	
 }

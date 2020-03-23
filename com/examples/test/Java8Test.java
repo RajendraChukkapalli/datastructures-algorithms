@@ -8,5 +8,4 @@ public class Java8Test {
 		int[] input = { 1, 1, 2, 3, 5, 5, 7, 9, 9, 9 };
 		Arrays.stream(input).filter(n -> n>2).forEach(System.out::print);
 	}
-
 }

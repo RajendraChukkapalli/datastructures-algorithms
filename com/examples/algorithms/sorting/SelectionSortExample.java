@@ -21,18 +21,20 @@ public class SelectionSortExample {
 	private static int[] sort(int[] intArray) {
 
 		int sortedArray[] = new int[intArray.length];
-		int minimum = 0; 
-		for (int i = 0; i < intArray.length - 1; i++) {
+		
+		for (int i = 0; i < intArray.length; i++) {
+			int minimum = i; 
 			for (int j = i + 1; j < intArray.length ; j++) {
+				// iterate the array from (i+1) and find the minimum element
 				if (intArray[j] < intArray[minimum]) 
 				{
 					minimum = j;
 				}
 			}
+			// once the minimum element is found, the swap the minimum element with element at "i".
 			int temp  =  intArray[minimum];
 			intArray[minimum] = intArray[i];
 			intArray[i] = temp;
-			minimum= i + 1;
 		}
 		return sortedArray;
 	}
