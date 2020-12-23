@@ -16,7 +16,7 @@ public class SecondLargestElement {
 		System.out.println(findLargest(node));
 		System.out.println(findSecondLargest(node));
 	}
-	
+	 
 	
 	/**
 	 * if the right node is null, which means the second largest node

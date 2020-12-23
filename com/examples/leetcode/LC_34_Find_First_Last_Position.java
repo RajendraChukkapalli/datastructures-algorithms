@@ -1,4 +1,4 @@
-package com.examples.datastructures.binarysearch;
+package com.examples.leetcode;
 
 /**
  * LC-34
@@ -20,7 +20,7 @@ public class LC_34_Find_First_Last_Position {
 	private static int findStartingIndex(int[] nums, int target) {
 		int index = -1;
 		
-		// create the start and end indexes 
+		// create the start and end indexes  
 		int start = 0;
 		int end  = nums.length - 1;
 		

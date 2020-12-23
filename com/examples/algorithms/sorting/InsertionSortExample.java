@@ -16,9 +16,7 @@ public class InsertionSortExample {
 	}
 
 	private static void sort(int[] intArray) {
-		int count = 0;
 		for (int i = 0; i < intArray.length ; i++) {
-			count = count + 1;
 			// Keep the element in temporary variable
 			int temp  = intArray[i];
 			int j = i;
@@ -26,10 +24,8 @@ public class InsertionSortExample {
 			while ( j  > 0 && temp < intArray[j-1]) {
 				intArray[j] = intArray[j-1];
 				j = j -1;
-				count = count + 1;
 			}
 			intArray[j] = temp;
 		}
-		System.out.println("Number of iterations = " + count);
 	}
 }

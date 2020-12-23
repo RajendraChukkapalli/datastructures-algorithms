@@ -14,7 +14,7 @@ public class CountAllLeafNodes {
 	/**
 	 * Counting all leafs using iterative approach.
 	 * 
-	 * @param node
+	 * @param node 
 	 */
 	private static void countAllLeafs(BinaryTreeNode node) {
 

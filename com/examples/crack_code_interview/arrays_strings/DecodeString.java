@@ -5,14 +5,11 @@ import java.util.Stack;
 public class DecodeString {
 
 	public static void main(String[] args) {
-
-		
-		String s = "ab24[a34[c]]24[abc]";
-		
-		System.out.println(decodeString(s));
+		String s = "2[a]3[b]4[c]";
+		System.out.println(decodeString2(s));
 	}
 	
-	public static String decodeString(String s) {
+	public static String decodeString(String s) { 
         // base case, do nothing sequence to repeat
         if (s.indexOf('[') == -1 && s.indexOf(']') == -1) {
             return s;            
@@ -64,4 +61,41 @@ public class DecodeString {
         return answer.toString();
     }
 
+	
+	public static String decodeString2(String s) {
+        
+        Stack<Integer> counts = new Stack<>();
+        Stack<String> result = new Stack<>();
+        
+        String res = "";
+        int index = 0;
+        
+        while (index < s.length()) {
+            
+            if (Character.isDigit(s.charAt(index))) {
+                int count = 0;
+                while (Character.isDigit(s.charAt(index))) {
+                    count = 10 * count + s.charAt(index) - '0';
+                    index += 1;
+                }
+                counts.push(count);
+            } else if (s.charAt(index) == '[') {
+                result.push(res);
+                res="";
+                index += 1;
+            } else if (s.charAt(index) == ']') {
+                StringBuilder builder = new StringBuilder(result.pop());
+                int count = counts.pop();
+                for (int i=0;  i < count; i++) {
+                    builder.append(res);
+                }
+                res = builder.toString();
+                index += 1;
+            } else {
+                res += s.charAt(index);
+                index += 1;
+            }
+        }
+        return res.toString();
+    }
 }

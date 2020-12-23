@@ -1,6 +1,7 @@
 package com.examples.datastructures.stacksandqueues;
 
 import java.util.LinkedList;
+import java.util.Stack;
 
 /**
  * 1.  char by char are pushed into stack 
@@ -20,8 +21,10 @@ public class PalindromeUsingStack {
         System.out.println(checkForPalindrome("I did, did I?"));
         // should return false
         System.out.println(checkForPalindrome("hello"));
-        // should return true
+        // should return true 
         System.out.println(checkForPalindrome("Don't nod"));
+        
+        System.out.println(checkForPalindromeUsingStack("I did, did I?"));
 
 	}
 
@@ -45,9 +48,30 @@ public class PalindromeUsingStack {
 		while (!charList.isEmpty()) {
 			s2.append(charList.pop());
 		}
+	  System.out.println("-----------------------------------");
+	  System.out.println(s1.toString());
+	  System.out.println(s2.toString());
+	  System.out.println("-----------------------------------");
 		return s1.toString().equals(s2.toString());
 	}
 	
+	private static boolean checkForPalindromeUsingStack(String string) {
+		
+		char[] brackets = string.toCharArray();
+		  Stack<Character> s = new Stack<>();
+		  for (char c : brackets) {
+			  s.push(c);
+		  }
+		  StringBuilder result = new StringBuilder();
+		  while(!s.isEmpty()) {
+			  result.append(s.pop());
+		  }
+		  System.out.println("-----------------------------------");
+		  System.out.println(string);
+		  System.out.println(result.toString());
+		  System.out.println("-----------------------------------");
+		return false;
+	}
 	
 
 }

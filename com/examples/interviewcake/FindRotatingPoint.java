@@ -15,7 +15,7 @@ public class FindRotatingPoint {
 			    "ptolemaic",
 			    "retrograde",
 			    "supplant",
-			    "undulate",
+			    "undulate", 
 			    "xenoepist",
 			    "asymptote",  // <-- rotates here!
 			    "babka",

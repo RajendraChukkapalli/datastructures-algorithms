@@ -7,6 +7,16 @@ public class LC11_Container_With_Most_Water {
 		System.out.println(maxArea(height));
 	}
 	
+	/**
+	 *               |   |    
+	 *               |   |    
+	 *  |   |        |   |    
+	 *  |   |<---x-->|   |    
+	 * ---------------------------------------------
+	 * 
+	 * @param height
+	 * @return
+	 */
     public static int maxArea(int[] height) {
         int max = height[0]; 
         for (int i=0; i< height.length; i++) {

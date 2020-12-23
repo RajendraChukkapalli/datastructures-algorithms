@@ -6,7 +6,7 @@ import java.util.PriorityQueue;
  * https://www.youtube.com/watch?v=3dqR2nYElyw
  * AMAZON - MINIMUM COST TO CONNECT STICKS
  */
-public class LC1167 {
+public class LC1167_Min_Cost_Connect_Sticks {
 
 	public static void main(String[] args) {
 		
@@ -31,6 +31,7 @@ public class LC1167 {
 		while (minHeap.size() > 1) {
 			int sum = minHeap.remove() + minHeap.remove();
 			cost += sum;
+			System.out.println("cost ---->  " + cost);
 			minHeap.add(sum);
 		}
 		return cost;

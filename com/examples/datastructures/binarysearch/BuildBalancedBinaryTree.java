@@ -11,7 +11,6 @@ public class BuildBalancedBinaryTree {
 	  public static void main(String[] args) {
 		  	int[] intArray = new int[] {1,2,3,5,6,8,9,10, 11, 12, 14, 16};
 		  	Node node = toBalancedBst(intArray);
-		  	preOrderTrversal(node);
 		}
 	  
 	  public static Node toBalancedBst(int arr[]) {
@@ -33,20 +32,6 @@ public class BuildBalancedBinaryTree {
 		 
 		return node;
 	}
-	
-	/**
-	 * Pre order traversal - root, left, right
-	 * @param node
-	 */
-	public static void preOrderTrversal(Node node) {
-		
-		if (node == null) { 
-            return; 
-        } 
-        System.out.print(node.data + " "); 
-        preOrderTrversal(node.left); 
-        preOrderTrversal(node.right); 
-		
-	}
+
   }
 	 

@@ -11,6 +11,20 @@ import java.util.LinkedList;
 public class AdjacencyListExample {
 
     private LinkedList<Integer> vertices[] = null;
+    
+    /**
+     * Create a Linked List with number of vertices
+     * For each vertices, create another LinkedList for storing the navigation path
+     *
+     * @param num
+     */
+    @SuppressWarnings("unchecked")
+	AdjacencyListExample(int num) {
+        vertices = new LinkedList[num];
+        for (int i=0; i< num; i++) {
+            vertices[i] = new LinkedList<>();
+        }
+    }
 
     public static void main( String[] args ) {
 
@@ -44,7 +58,7 @@ public class AdjacencyListExample {
     }
 
     /**
-     * Add the src and dest for the given graph
+     * Add the "src" and "dest" for the given graph
      *
      * @param src
      * @param dest
@@ -56,16 +70,5 @@ public class AdjacencyListExample {
         vertices[dest].addLast(src);
     }
 
-    /**
-     * Create a Linked List with number of vertices
-     * For each vertices, create another LinkedList for storing the navigation path
-     *
-     * @param num
-     */
-    AdjacencyListExample(int num) {
-        vertices = new LinkedList[num];
-        for (int i=0; i< num; i++) {
-            vertices[i] = new LinkedList<>();
-        }
-    }
+
 }

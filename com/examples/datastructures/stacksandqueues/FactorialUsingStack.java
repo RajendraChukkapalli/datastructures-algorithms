@@ -6,7 +6,7 @@ public class FactorialUsingStack {
 
 	public static void main(String[] args) {
 		int fact = 6;
-		Stack newStack = new Stack();
+		Stack<Integer> newStack = new Stack<Integer>();
 		while (fact >= 1) { 
 			newStack.push(fact--);
 		}

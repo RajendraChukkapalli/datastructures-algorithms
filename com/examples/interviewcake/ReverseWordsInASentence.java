@@ -21,7 +21,7 @@ public class ReverseWordsInASentence {
 
 		// reverse the characters
 		char c[] = message.toCharArray();
-		int i = 0;
+		int i = 0; 
 		int j = message.length() -1;
 		while (i < j) {
 			char t = c[i];
@@ -65,14 +65,12 @@ public class ReverseWordsInASentence {
 	            j--;
 	        }
 	        StringBuilder sb = new StringBuilder();
-	        int index = 0;
 	        for (String str : words) {
 	            if (str.equals("")) {
 	                continue;
 	            } else {
 	                sb.append(str + " ");
 	            }
-	            index++;
 	        }
 	        return sb.toString().trim();
 	    }

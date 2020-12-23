@@ -21,7 +21,7 @@ public class LevelOrderTraversal {
 	 * 
 	 * @param node
 	 * @return
-	 */
+	 */ 
 	private static int height(BinaryTreeNode node) {
 		if (node == null) return 0;
 		int leftHeight  = height(node.left);

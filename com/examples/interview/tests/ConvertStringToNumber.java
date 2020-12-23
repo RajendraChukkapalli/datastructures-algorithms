@@ -1,7 +1,5 @@
 package com.examples.interview.tests;
 
-import java.util.HashMap;
-
 /**
  * Given an integer wrapped in string, convert it into integer.
  *

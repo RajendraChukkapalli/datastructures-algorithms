@@ -26,6 +26,18 @@ public class TwoNumberSum {
 		return new int[]{};
 	}
 	
+	/**
+	 * You can use this approach as well.
+	 * 
+	 * 	1. sort the array
+	 *  2. take the left and right pointers at the beginning and end respectively. 
+	 *  3. start adding both the elements 
+	 *  4. if the sum is equal to desired output, return the numbers
+	 * 
+	 * @param nums
+	 * @param target
+	 * @return
+	 */
 	 public static int[] twoSum(int[] nums, int target) {
 	        
 	        Arrays.sort(nums);
@@ -37,7 +49,7 @@ public class TwoNumberSum {
 	        while (i  < j) {
 	            currentSum = nums[i] + nums[j];
 	            if (currentSum == target) {
-	                return new int[] {i,j};
+	                return new int[] {nums[i],nums[j]};
 	            } else if (currentSum < target) {
 	                i++;
 	            } else if (currentSum > target) {

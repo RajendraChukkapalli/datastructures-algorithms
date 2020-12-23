@@ -17,7 +17,7 @@ package com.examples.datastructures.binarysearch;
 
   //      20
   //     /  \   
-  //   15    22
+  //   15    22 
   //   /\    / \
   // 10 18  21 25
 

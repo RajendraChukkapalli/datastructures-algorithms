@@ -1,5 +1,7 @@
 package com.examples.interview.tests;
 
+import java.util.Stack;
+
 public class Calculator {
 	public static void main(String[] args) {
 		calculate("6+9-12"); 
@@ -7,6 +9,21 @@ public class Calculator {
 
 	private static void calculate(String string) {
 		char c[] = string.toCharArray();
+		
+		Stack<Character> charStack = new Stack<>();
+		for (char temp: c) {
+			charStack.push(temp);
+		}
+		
+		boolean plus = false;
+		boolean minus = false;
+		
+		while(charStack.isEmpty()) {
+			
+			if()
+			
+		}
+		
 		int sum = 0;
 		int tempNum = 0;
 		int count = 0;
@@ -42,43 +59,3 @@ public class Calculator {
 		return nums;
 	}
 }
-
-		
-//		// if the number is digit
-//		// find the length of the number
-//		// this needs to be calculated 
-//		if (Character.isDigit(c[i])) {
-//			if (flag) {
-//				count = countNumber(c, i);
-//				flag = false;
-//			}
-//			--count;
-//			tempNum +=  (c[i] - '0') + (10 * count);
-//		} else {
-//			switch(c[i]) {
-//				case '+': 
-//					sum+=tempNum;
-//					break;
-//				case '-': 
-//					sum-=tempNum;
-//					break;
-//			}
-//			count = 0;
-//			tempNum = 0;
-//			flag = true;
-//		}
-//	}
-//	System.out.println("sum = " + sum);
-//}
-//
-//private static int countNumber(char[] carr, int i) {
-//	int count = 0;
-//	for (int index=i; index < carr.length; index++) {
-//		if (carr[index] == '+' || carr[index] == '-') {
-//			break;
-//		} else {
-//			count += 1;
-//		}
-//	}
-//	return count;
-//}

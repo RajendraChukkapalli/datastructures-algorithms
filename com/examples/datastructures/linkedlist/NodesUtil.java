@@ -21,7 +21,7 @@ public class NodesUtil {
 		if (linkedList != null) {
 			Node node = linkedList.head;
 			while (node != null) {
-				System.out.println(node.data);
+				System.out.print(node.data + " ");
 				node = node.next;
 			}
 		}

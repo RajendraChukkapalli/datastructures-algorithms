@@ -10,7 +10,7 @@ public class UniqueChars {
 		String s1 = "Rajendra Chukkapalli";
 		System.out.println(isUniqueCharacters(s1));
 		
-		System.out.println("------------------------------");
+		System.out.println("------------------------------"); 
 		
 		String s3 = "Rajendr Chukpli";
 		System.out.println("s3 =>" + isUniqueCharacters2(s3));

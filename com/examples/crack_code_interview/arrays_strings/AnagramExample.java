@@ -10,7 +10,7 @@ public class AnagramExample {
 
     public static String sort(String s) {
         char[] content = s.toCharArray();
-        java.util.Arrays.sort(content);
+        java.util.Arrays.sort(content); 
         return new String(content);
     }
 
